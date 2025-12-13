@@ -19,7 +19,7 @@ export function Testimonials() {
             What Our Clients Say
           </h2>
           <p className="text-fluid-lg text-neutral-600 dark:text-neutral-400 max-w-2xl mx-auto">
-            Don't just take our word for it — hear from businesses we've helped succeed
+            Don&apos;t just take our word for it — hear from businesses we&apos;ve helped succeed
           </p>
         </motion.div>
 
@@ -45,7 +45,7 @@ export function Testimonials() {
 
               {/* Content */}
               <p className="text-neutral-600 dark:text-neutral-400 mb-6 leading-relaxed">
-                "{testimonial.content}"
+                &ldquo;{testimonial.content}&rdquo;
               </p>
 
               {/* Author */}

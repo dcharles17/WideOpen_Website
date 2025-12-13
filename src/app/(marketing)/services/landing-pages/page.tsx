@@ -101,7 +101,7 @@ export default function LandingPagesPage() {
               Ready to Launch Your Landing Page?
             </h2>
             <p className="text-fluid-lg text-white/90 mb-8">
-              Get a free quote and let's discuss how we can help you achieve your goals.
+              Get a free quote and let&apos;s discuss how we can help you achieve your goals.
             </p>
             <Link
               href="/contact"

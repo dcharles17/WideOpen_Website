@@ -52,7 +52,7 @@ export default function AboutPage() {
               About Wide Open Development
             </h1>
             <p className="text-fluid-xl text-neutral-600 dark:text-neutral-400">
-              We're a modern web development company passionate about building beautiful,
+              We&apos;re a modern web development company passionate about building beautiful,
               high-performance websites that drive real business results.
             </p>
           </div>
@@ -80,7 +80,7 @@ export default function AboutPage() {
               </p>
               <p>
                 What sets us apart is our commitment to using modern frameworks like Next.js and
-                React, ensuring your website is fast, secure, and built for the future. We don't use
+                React, ensuring your website is fast, secure, and built for the future. We don&apos;t use
                 outdated templates or one-size-fits-all solutions – every project is custom-built to
                 meet your unique needs.
               </p>
@@ -133,7 +133,7 @@ export default function AboutPage() {
                 </h3>
                 <p className="text-neutral-600 dark:text-neutral-400">
                   We use the latest frameworks like Next.js 15, React 19, and Tailwind CSS to build
-                  fast, scalable websites. This isn't just about being trendy – these technologies
+                  fast, scalable websites. This isn&apos;t just about being trendy – these technologies
                   provide real benefits: faster load times, better SEO, and easier maintenance.
                 </p>
               </div>
@@ -172,9 +172,9 @@ export default function AboutPage() {
               Based in Utah, Serving Nationwide
             </h2>
             <p className="text-fluid-lg text-neutral-600 dark:text-neutral-400 mb-6">
-              While we're proud to call Utah home, we work with clients across the United States.
+              While we&apos;re proud to call Utah home, we work with clients across the United States.
               Our remote-first approach means we can provide the same high-quality service whether
-              you're local or across the country.
+              you&apos;re local or across the country.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center text-neutral-600 dark:text-neutral-400">
               <div>
@@ -200,10 +200,10 @@ export default function AboutPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-fluid-3xl font-bold mb-4 text-white">
-              Let's Work Together
+              Let&apos;s Work Together
             </h2>
             <p className="text-fluid-lg text-white/90 mb-8">
-              Ready to build something amazing? Get in touch and let's discuss your project.
+              Ready to build something amazing? Get in touch and let&apos;s discuss your project.
             </p>
             <Link
               href="/contact"

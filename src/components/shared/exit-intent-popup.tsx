@@ -82,7 +82,7 @@ export function ExitIntentPopup() {
 
               {/* Content */}
               <h3 className="text-2xl font-bold text-center mb-4 text-neutral-900 dark:text-neutral-100">
-                Wait! Don't Leave Empty-Handed
+                Wait! Don&apos;t Leave Empty-Handed
               </h3>
               <p className="text-center text-neutral-600 dark:text-neutral-400 mb-6">
                 Get a <strong>FREE website audit</strong> and discover how to increase your conversions by up to 300%
@@ -116,7 +116,7 @@ export function ExitIntentPopup() {
                 onClick={() => setIsOpen(false)}
                 className="w-full text-sm text-neutral-500 hover:text-neutral-700 dark:hover:text-neutral-300"
               >
-                No thanks, I'll pass on this opportunity
+                No thanks, I&apos;ll pass on this opportunity
               </button>
             </div>
           </motion.div>

@@ -190,7 +190,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
               Want Similar Results?
             </h2>
             <p className="text-fluid-lg text-white/90 mb-8">
-              Let's discuss your project and create a custom solution for your business.
+              Let&apos;s discuss your project and create a custom solution for your business.
             </p>
             <Link
               href="/contact"

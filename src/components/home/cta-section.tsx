@@ -25,7 +25,7 @@ export function CTASection() {
           </h2>
 
           <p className="text-fluid-lg text-white/90 mb-8 max-w-2xl mx-auto">
-            Let's turn your vision into reality. Get a free quote and see how we can help your
+            Let&apos;s turn your vision into reality. Get a free quote and see how we can help your
             business grow online.
           </p>
 

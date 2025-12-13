@@ -2,13 +2,22 @@
 
 import { useState } from "react"
 import { motion } from "framer-motion"
-import { Zap, CheckCircle, XCircle, AlertCircle, ExternalLink } from "lucide-react"
+import { Zap, AlertCircle } from "lucide-react"
 
 export function SpeedTestTool() {
   const [url, setUrl] = useState("")
   const [email, setEmail] = useState("")
   const [isLoading, setIsLoading] = useState(false)
-  const [result, setResult] = useState<any>(null)
+  const [result, setResult] = useState<{
+    score: number
+    metrics: {
+      fcp: string
+      lcp: string
+      cls: string
+      tti: string
+    }
+    opportunities: string[]
+  } | null>(null)
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
@@ -124,7 +133,7 @@ export function SpeedTestTool() {
               </form>
 
               <p className="text-sm text-neutral-500 dark:text-neutral-400 mt-4 text-center">
-                We'll send a detailed report to your email. No spam, ever.
+                We&apos;ll send a detailed report to your email. No spam, ever.
               </p>
             </motion.div>
           ) : (

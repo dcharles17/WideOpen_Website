@@ -223,7 +223,7 @@ export default function WebApplicationsPage() {
               Ready to Build Your Web App?
             </h2>
             <p className="text-fluid-lg text-white/90 mb-8">
-              Let's discuss your project and create a custom solution that fits your needs.
+              Let&apos;s discuss your project and create a custom solution that fits your needs.
             </p>
             <Link
               href="/contact"

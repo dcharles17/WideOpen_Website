@@ -19,7 +19,7 @@ export default function PortfolioPage() {
               Our Work
             </h1>
             <p className="text-fluid-xl text-neutral-600 dark:text-neutral-400">
-              See how we've helped businesses succeed with modern, high-performance websites
+              See how we&apos;ve helped businesses succeed with modern, high-performance websites
             </p>
           </div>
         </div>
@@ -40,7 +40,7 @@ export default function PortfolioPage() {
               Ready to Start Your Project?
             </h2>
             <p className="text-fluid-lg text-white/90 mb-8">
-              Let's create something amazing together. Get your free quote today.
+              Let&apos;s create something amazing together. Get your free quote today.
             </p>
             <Link
               href="/contact"

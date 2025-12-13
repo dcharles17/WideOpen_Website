@@ -52,7 +52,7 @@ export function WhyChooseUs() {
             Why Choose Wide Open Development
           </h2>
           <p className="text-fluid-lg text-neutral-600 dark:text-neutral-400">
-            We're not just developers – we're partners in your success
+            We&apos;re not just developers – we&apos;re partners in your success
           </p>
         </motion.div>
 

@@ -4,7 +4,8 @@ import { contactSchema } from "@/lib/validations/contact"
 import { QuoteRequestEmail } from "@/lib/email/templates/quote-request"
 import { AutoResponseEmail } from "@/lib/email/templates/auto-response"
 
-const resend = new Resend(process.env.RESEND_API_KEY)
+// Initialize Resend only if API key is available
+const resend = process.env.RESEND_API_KEY ? new Resend(process.env.RESEND_API_KEY) : null
 
 export async function POST(request: NextRequest) {
   try {
@@ -14,7 +15,7 @@ export async function POST(request: NextRequest) {
     const validatedData = contactSchema.parse(body)
 
     // If RESEND_API_KEY is not set, log the data and return success (for development)
-    if (!process.env.RESEND_API_KEY) {
+    if (!resend) {
       console.log("📧 Quote Request (Development Mode):")
       console.log(JSON.stringify(validatedData, null, 2))
 

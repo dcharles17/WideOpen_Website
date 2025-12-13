@@ -24,15 +24,15 @@ export function AutoResponseEmail({ name }: AutoResponseEmailProps) {
           <Text style={text}>Hi {name},</Text>
 
           <Text style={text}>
-            Thank you for reaching out to Wide Open Development. We've received your quote request
+            Thank you for reaching out to Wide Open Development. We&apos;ve received your quote request
             and will review it carefully.
           </Text>
 
           <Section style={section}>
             <Heading as="h2" style={h2}>What Happens Next?</Heading>
-            <Text style={detail}>1. We'll review your project requirements</Text>
-            <Text style={detail}>2. We'll prepare a detailed proposal and quote</Text>
-            <Text style={detail}>3. We'll reach out within 24-48 hours to discuss next steps</Text>
+            <Text style={detail}>1. We&apos;ll review your project requirements</Text>
+            <Text style={detail}>2. We&apos;ll prepare a detailed proposal and quote</Text>
+            <Text style={detail}>3. We&apos;ll reach out within 24-48 hours to discuss next steps</Text>
           </Section>
 
           <Hr style={hr} />

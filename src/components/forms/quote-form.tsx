@@ -216,7 +216,7 @@ export function QuoteForm() {
           <div>
             <h4 className="font-semibold text-green-900 dark:text-green-100">Message sent successfully!</h4>
             <p className="text-sm text-green-700 dark:text-green-300">
-              We'll get back to you within 24-48 hours.
+              We&apos;ll get back to you within 24-48 hours.
             </p>
           </div>
         </div>

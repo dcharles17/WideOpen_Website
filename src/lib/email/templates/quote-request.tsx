@@ -22,7 +22,7 @@ export function QuoteRequestEmail({ data }: QuoteRequestEmailProps) {
         <Container style={container}>
           <Heading style={h1}>New Quote Request</Heading>
 
-          <Text style={text}>You've received a new quote request from your website.</Text>
+          <Text style={text}>You&apos;ve received a new quote request from your website.</Text>
 
           <Section style={section}>
             <Heading as="h2" style={h2}>Contact Information</Heading>

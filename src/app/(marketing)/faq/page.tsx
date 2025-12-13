@@ -116,7 +116,7 @@ export default function FAQPage() {
               Still Have Questions?
             </h2>
             <p className="text-fluid-lg text-white/90 mb-8">
-              We're here to help! Contact us for a free consultation and we'll answer all your questions.
+              We&apos;re here to help! Contact us for a free consultation and we&apos;ll answer all your questions.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

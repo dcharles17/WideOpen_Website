@@ -23,7 +23,7 @@ export function RecentProjects() {
             Recent Projects
           </h2>
           <p className="text-fluid-lg text-neutral-600 dark:text-neutral-400">
-            See how we've helped businesses like yours succeed online
+            See how we&apos;ve helped businesses like yours succeed online
           </p>
         </motion.div>
 

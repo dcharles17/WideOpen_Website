@@ -16,7 +16,7 @@ export default function ContactPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-fluid-4xl font-bold mb-6 text-neutral-900 dark:text-neutral-100">
-              Let's Build Something Amazing
+              Let&apos;s Build Something Amazing
             </h1>
             <p className="text-fluid-xl text-neutral-600 dark:text-neutral-400">
               Get a free quote for your project. We typically respond within 24-48 hours.
@@ -36,7 +36,7 @@ export default function ContactPage() {
                   Get in Touch
                 </h2>
                 <p className="text-neutral-600 dark:text-neutral-400 mb-6">
-                  Have questions? We're here to help. Reach out via phone, email, or the form.
+                  Have questions? We&apos;re here to help. Reach out via phone, email, or the form.
                 </p>
               </div>
 
@@ -150,7 +150,7 @@ export default function ContactPage() {
                   We Respond
                 </h3>
                 <p className="text-neutral-600 dark:text-neutral-400">
-                  We'll reach out within 24-48 hours with questions and next steps
+                  We&apos;ll reach out within 24-48 hours with questions and next steps
                 </p>
               </div>
               <div className="text-center">

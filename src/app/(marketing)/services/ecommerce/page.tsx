@@ -146,7 +146,7 @@ export default function ECommercePage() {
               Ready to Start Selling Online?
             </h2>
             <p className="text-fluid-lg text-white/90 mb-8">
-              Let's build an e-commerce store that drives revenue and delights customers.
+              Let&apos;s build an e-commerce store that drives revenue and delights customers.
             </p>
             <Link
               href="/contact"

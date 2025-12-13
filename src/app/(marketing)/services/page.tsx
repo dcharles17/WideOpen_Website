@@ -50,7 +50,7 @@ export default function ServicesPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-fluid-3xl font-bold mb-8 text-center text-neutral-900 dark:text-neutral-100">
-              What's Included in Every Project
+              What&apos;s Included in Every Project
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="p-6 rounded-xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900">
@@ -102,7 +102,7 @@ export default function ServicesPage() {
                   Ongoing Support
                 </h3>
                 <p className="text-neutral-600 dark:text-neutral-400">
-                  We're here after launch with maintenance packages and technical support when you
+                  We&apos;re here after launch with maintenance packages and technical support when you
                   need it.
                 </p>
               </div>
@@ -119,7 +119,7 @@ export default function ServicesPage() {
               Ready to Get Started?
             </h2>
             <p className="text-fluid-lg text-white/90 mb-8">
-              Let's discuss your project and find the perfect solution for your business.
+              Let&apos;s discuss your project and find the perfect solution for your business.
             </p>
             <Link
               href="/contact"
