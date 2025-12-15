@@ -24,7 +24,7 @@ export function HeroSection() {
           >
             <span className="inline-flex items-center space-x-2 px-4 py-2 rounded-full bg-primary/10 text-primary border border-primary/20 text-sm font-medium">
               <span>🚀</span>
-              <span>Modern Web Development in Utah</span>
+              <span>Full-Stack Software Engineering & AI Solutions</span>
             </span>
           </motion.div>
 
@@ -36,11 +36,11 @@ export function HeroSection() {
             className="text-fluid-4xl md:text-6xl lg:text-7xl font-bold tracking-tight"
           >
             <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
-              Beautiful Websites
+              Custom Software Solutions
             </span>
             <br />
             <span className="text-neutral-900 dark:text-neutral-100">
-              That Drive Results
+              That Drive Your Business Forward
             </span>
           </motion.h1>
 
@@ -51,8 +51,9 @@ export function HeroSection() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-fluid-xl text-neutral-600 dark:text-neutral-400 max-w-3xl mx-auto"
           >
-            We build modern, high-performance websites and web applications using cutting-edge
-            technology. From landing pages to e-commerce platforms, we bring your vision to life.
+            We build custom web applications, integrate AI into existing systems, and create scalable
+            software solutions using cutting-edge technology. From websites to full-stack applications
+            and machine learning models, we bring your vision to life.
           </motion.p>
 
           {/* CTA Buttons */}

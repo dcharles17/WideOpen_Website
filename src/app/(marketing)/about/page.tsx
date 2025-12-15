@@ -5,7 +5,7 @@ import type { Metadata } from "next"
 
 export const metadata: Metadata = {
   title: "About Us | Wide Open Development",
-  description: "Learn about Wide Open Development - a modern web development company based in Utah, serving businesses nationwide with cutting-edge technology.",
+  description: "Learn about Wide Open Development - a full-stack software engineering company specializing in custom web applications, AI integration, and modern software solutions.",
 }
 
 const values = [
@@ -52,8 +52,9 @@ export default function AboutPage() {
               About Wide Open Development
             </h1>
             <p className="text-fluid-xl text-neutral-600 dark:text-neutral-400">
-              We&apos;re a modern web development company passionate about building beautiful,
-              high-performance websites that drive real business results.
+              We&apos;re a full-stack software engineering company passionate about building custom
+              software solutions, integrating AI into businesses, and creating high-performance
+              applications that drive real results.
             </p>
           </div>
         </div>
@@ -69,20 +70,23 @@ export default function AboutPage() {
             <div className="space-y-6 text-neutral-600 dark:text-neutral-400 text-lg leading-relaxed">
               <p>
                 Wide Open Development was founded with a simple mission: to bring modern, high-quality
-                web development to businesses of all sizes. We believe that every business deserves a
-                website that not only looks great but performs exceptionally.
+                software engineering to businesses of all sizes. We believe that every business deserves
+                custom software solutions that not only look great but perform exceptionally and solve
+                real problems.
               </p>
               <p>
-                Based in Utah and serving clients nationwide, we specialize in building custom
-                websites, web applications, and e-commerce platforms using cutting-edge technology.
-                From startups to established businesses, we partner with clients who value quality,
-                performance, and innovation.
+                Based in Utah and serving clients nationwide, we specialize in full-stack software
+                development, AI integration, custom web applications, API development, cloud
+                infrastructure, and modern software solutions. From startups to established enterprises,
+                we partner with clients who value quality, performance, and innovation.
               </p>
               <p>
-                What sets us apart is our commitment to using modern frameworks like Next.js and
-                React, ensuring your website is fast, secure, and built for the future. We don&apos;t use
-                outdated templates or one-size-fits-all solutions – every project is custom-built to
-                meet your unique needs.
+                What sets us apart is our expertise across the entire software development lifecycle.
+                We build custom web applications with modern frameworks like Next.js and React, integrate
+                AI capabilities into existing systems, design scalable APIs and databases, set up cloud
+                infrastructure, and provide ongoing technical strategy. We don&apos;t use outdated
+                templates or one-size-fits-all solutions – every project is custom-built to meet your
+                unique needs.
               </p>
             </div>
           </div>
@@ -129,23 +133,24 @@ export default function AboutPage() {
             <div className="space-y-8">
               <div className="p-6 rounded-xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900">
                 <h3 className="text-xl font-bold mb-3 text-neutral-900 dark:text-neutral-100">
-                  Modern Technology Stack
+                  Full-Stack Engineering
                 </h3>
                 <p className="text-neutral-600 dark:text-neutral-400">
-                  We use the latest frameworks like Next.js 15, React 19, and Tailwind CSS to build
-                  fast, scalable websites. This isn&apos;t just about being trendy – these technologies
-                  provide real benefits: faster load times, better SEO, and easier maintenance.
+                  We handle the complete software stack from frontend to backend, databases to cloud
+                  infrastructure. Using modern technologies like Next.js, React, Node.js, and leading
+                  cloud platforms, we build scalable, maintainable systems that grow with your business.
                 </p>
               </div>
 
               <div className="p-6 rounded-xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900">
                 <h3 className="text-xl font-bold mb-3 text-neutral-900 dark:text-neutral-100">
-                  Performance-First
+                  AI Integration Expertise
                 </h3>
                 <p className="text-neutral-600 dark:text-neutral-400">
-                  Every website we build targets a 95+ Lighthouse performance score. Fast websites
-                  rank better in search engines, convert more visitors, and provide better user
-                  experiences. We optimize every aspect of your site for speed.
+                  We integrate cutting-edge AI capabilities into your existing systems and new
+                  applications. From chatbots and natural language processing to custom machine learning
+                  models and generative AI tools, we help you leverage AI to automate workflows and
+                  enhance user experiences.
                 </p>
               </div>
 
@@ -155,8 +160,8 @@ export default function AboutPage() {
                 </h3>
                 <p className="text-neutral-600 dark:text-neutral-400">
                   No templates, no shortcuts. Every project is custom-built to your specific needs.
-                  We take time to understand your business, goals, and audience, then create a
-                  solution that works for you.
+                  We take time to understand your business, goals, and technical requirements, then
+                  architect and build a solution that solves your unique challenges.
                 </p>
               </div>
             </div>

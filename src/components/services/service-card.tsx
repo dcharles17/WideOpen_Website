@@ -2,7 +2,28 @@
 
 import { motion } from "framer-motion"
 import Link from "next/link"
-import { ArrowRight, Layout, Building2, ShoppingCart, Code, Shield, RefreshCw } from "lucide-react"
+import {
+  ArrowRight,
+  Layout,
+  Building2,
+  ShoppingCart,
+  Code,
+  Shield,
+  RefreshCw,
+  Brain,
+  Cpu,
+  Sparkles,
+  BarChart,
+  Server,
+  Database,
+  Cloud,
+  GitBranch,
+  Activity,
+  Target,
+  Search,
+  BookOpen,
+  Monitor
+} from "lucide-react"
 import { Service } from "@/types/service"
 
 const iconMap = {
@@ -12,6 +33,19 @@ const iconMap = {
   code: Code,
   shield: Shield,
   "refresh-cw": RefreshCw,
+  brain: Brain,
+  cpu: Cpu,
+  sparkles: Sparkles,
+  "bar-chart": BarChart,
+  server: Server,
+  database: Database,
+  cloud: Cloud,
+  "git-branch": GitBranch,
+  activity: Activity,
+  target: Target,
+  search: Search,
+  "book-open": BookOpen,
+  monitor: Monitor,
 }
 
 interface ServiceCardProps {
