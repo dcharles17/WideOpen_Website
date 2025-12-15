@@ -2,6 +2,7 @@
 
 import * as React from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { usePathname } from "next/navigation"
 import { Menu, X, Phone } from "lucide-react"
 import { ThemeToggle } from "./theme-toggle"
@@ -15,15 +16,17 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-neutral-200 bg-[rgb(250,249,246)]/80 backdrop-blur-lg dark:border-neutral-800 dark:bg-[rgb(15,15,15)]/80">
       <div className="container mx-auto px-4">
-        <div className="flex h-16 items-center justify-between">
+        <div className="flex h-44 items-center justify-between py-2">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-2">
-            <div className="text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              WOD
-            </div>
-            <span className="hidden md:inline-block text-lg font-semibold">
-              Wide Open Development
-            </span>
+          <Link href="/" className="flex items-center">
+            <Image
+              src="/images/logo.png"
+              alt="Wide Open Development"
+              width={960}
+              height={320}
+              className="h-40 w-auto"
+              priority
+            />
           </Link>
 
           {/* Desktop Navigation */}

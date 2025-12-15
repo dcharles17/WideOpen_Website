@@ -12,6 +12,11 @@ export const metadata: Metadata = {
   description: "Full-service web development company based in Utah, serving businesses nationwide. We build modern, high-performance websites, e-commerce platforms, and web applications.",
   keywords: ["web development", "Utah", "website design", "e-commerce", "web applications", "custom websites"],
   authors: [{ name: "Wide Open Development" }],
+  icons: {
+    icon: "/images/logo.png",
+    shortcut: "/images/logo.png",
+    apple: "/images/logo.png",
+  },
   openGraph: {
     title: "Wide Open Development | Modern Web Development in Utah",
     description: "Full-service web development company based in Utah, serving businesses nationwide.",
