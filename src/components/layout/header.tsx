@@ -36,9 +36,10 @@ export function Header() {
                 key={link.href}
                 href={link.href}
                 className={cn(
-                  "text-sm font-medium transition-colors hover:text-primary",
+                  "relative text-sm font-medium transition-all duration-300 hover:text-primary hover:scale-110",
+                  "after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-primary after:transition-all after:duration-300 hover:after:w-full",
                   pathname === link.href
-                    ? "text-primary"
+                    ? "text-primary after:w-full"
                     : "text-neutral-700 dark:text-neutral-300"
                 )}
               >
@@ -51,10 +52,10 @@ export function Header() {
           <div className="flex items-center space-x-4">
             <a
               href={SITE_CONFIG.phoneHref}
-              className="hidden lg:flex items-center space-x-2 text-sm font-medium text-neutral-700 hover:text-primary transition-colors dark:text-neutral-300"
+              className="hidden lg:flex items-center space-x-2 text-sm font-medium text-neutral-700 hover:text-primary transition-all duration-300 hover:scale-105 dark:text-neutral-300 group"
             >
-              <Phone className="h-4 w-4" />
-              <span>{SITE_CONFIG.phoneDisplay}</span>
+              <Phone className="h-4 w-4 transition-transform duration-300 group-hover:rotate-12 group-hover:scale-110" />
+              <span className="transition-colors duration-300">{SITE_CONFIG.phoneDisplay}</span>
             </a>
 
             <ThemeToggle />
@@ -83,9 +84,9 @@ export function Header() {
                 href={link.href}
                 onClick={() => setMobileMenuOpen(false)}
                 className={cn(
-                  "block py-2 text-base font-medium transition-colors",
+                  "block py-2 px-4 text-base font-medium transition-all duration-300 rounded-lg hover:bg-primary/10 hover:translate-x-2",
                   pathname === link.href
-                    ? "text-primary"
+                    ? "text-primary bg-primary/5"
                     : "text-neutral-700 dark:text-neutral-300 hover:text-primary"
                 )}
               >
@@ -94,9 +95,9 @@ export function Header() {
             ))}
             <a
               href={SITE_CONFIG.phoneHref}
-              className="flex items-center space-x-2 py-2 text-base font-medium text-neutral-700 hover:text-primary transition-colors dark:text-neutral-300"
+              className="flex items-center space-x-2 py-2 px-4 text-base font-medium text-neutral-700 hover:text-primary transition-all duration-300 rounded-lg hover:bg-primary/10 hover:translate-x-2 dark:text-neutral-300 group"
             >
-              <Phone className="h-4 w-4" />
+              <Phone className="h-4 w-4 transition-transform duration-300 group-hover:rotate-12 group-hover:scale-110" />
               <span>{SITE_CONFIG.phoneDisplay}</span>
             </a>
           </nav>
