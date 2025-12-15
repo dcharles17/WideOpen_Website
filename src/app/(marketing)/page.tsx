@@ -13,8 +13,8 @@ export default function Home() {
       <ServicesOverview />
       <WhyChooseUs />
       <ProcessSection />
-      <RecentProjects />
-      <Testimonials />
+      {/* <RecentProjects /> */}
+      {/* <Testimonials /> */}
       <CTASection />
     </main>
   )
